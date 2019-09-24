@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    -dev
+
+---
+spring:
+  profiles: dev    #开发环境
+  application:
+    name: tr-dev
+
+---
+spring:
+  profiles: dev    #开发环境
+  application:
+    name: tr-test
